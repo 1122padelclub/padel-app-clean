@@ -1,0 +1,52 @@
+# ============================================
+# VARIABLES DE ENTORNO PARA VERCEL
+# ============================================
+# Copia estas variables en Vercel Dashboard:
+# Settings → Environment Variables
+# ============================================
+
+# ============================================
+# SUPABASE - Configuración de Base de Datos
+# ============================================
+NEXT_PUBLIC_SUPABASE_URL=https://vzxhtxixfkicugrenzls.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ6eGh0eGl4ZmtpY3VncmVuemxzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjUxNTE2MzcsImV4cCI6MjA4MDcyNzYzN30.wFwMTx-CzhzwEqdM2f3k-EviWWGEDt-jcwi6KMaP60g
+SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ6eGh0eGl4ZmtpY3VncmVuemxzIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2NTE1MTYzNywiZXhwIjoyMDgwNzI3NjM3fQ.yjZhzqcvaodXLOpnnjNh8_-nJnG6uJ1BbJjis8GLZbA
+
+# ============================================
+# API - Configuración del Backend
+# ============================================
+# IMPORTANTE: Reemplaza 'tu-dominio' con tu dominio real de Vercel
+# Ejemplo: https://padel-app-clean.vercel.app/api
+# O si tienes un backend separado, usa esa URL
+NEXT_PUBLIC_API_URL=https://tu-dominio.vercel.app/api
+
+# ============================================
+# SERVIDOR - Configuración del Puerto
+# ============================================
+PORT=3001
+
+# ============================================
+# ENVIRONMENT - Entorno de Ejecución
+# ============================================
+NODE_ENV=production
+
+# ============================================
+# NFC - Sistema de Tarjetas NFC (Opcional)
+# ============================================
+NEXT_PUBLIC_NFC_ENABLED=true
+
+# ============================================
+# INSTRUCCIONES PARA VERCEL:
+# ============================================
+# 1. Ve a tu proyecto en Vercel Dashboard
+# 2. Settings → Environment Variables
+# 3. Para cada variable de arriba:
+#    - Haz clic en "Add New"
+#    - Pega el nombre de la variable (ej: NEXT_PUBLIC_SUPABASE_URL)
+#    - Pega el valor correspondiente
+#    - Selecciona los ambientes: Production, Preview, Development
+#    - Haz clic en "Save"
+# 4. IMPORTANTE: Reemplaza 'tu-dominio' en NEXT_PUBLIC_API_URL
+#    con tu dominio real de Vercel después del primer deploy
+# ============================================
+
